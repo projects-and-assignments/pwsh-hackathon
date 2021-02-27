@@ -23,7 +23,7 @@ class myObj
     // accessors
     public int getInt()
     {
-        return myInt;
+        return myInt * FACTOR;
     }
     
     public String getString()
