@@ -11,8 +11,7 @@ class myObj
     // instance fields
     private int myInt;
     private String myString;
-    public final static int FACTOR = 8;
-
+  
     // constructors
     public myObj(int myVar, String myString)
     {
@@ -26,6 +25,11 @@ class myObj
         return myInt * FACTOR;
     }
     
+    public String getString()
+    {
+        return myString;
+    }
+
     public String getString()
     {
         return myString;
