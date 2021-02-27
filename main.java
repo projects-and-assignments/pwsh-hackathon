@@ -11,13 +11,7 @@ class myObj
     // instance fields
     private int myInt;
     private String myString;
-<<<<<<< HEAD
-
-    public static final double FACTOR = 0.25;
-=======
-    public final static int FACTOR = 8;
->>>>>>> c7ca16dca9a24a9bf44e123f63764e446214e347
-
+  
     // constructors
     public myObj(int myVar, String myString)
     {
