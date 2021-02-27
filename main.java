@@ -10,11 +10,13 @@ class myObj
 {
     // instance fields
     private int myInt;
+    private String myString;
 
     // constructors
-    public myObj(int myVar)
+    public myObj(int myVar, String myString)
     {
         this.myInt = myVar;
+        this.myString = myString;
     }
 
     // accessors
@@ -22,10 +24,20 @@ class myObj
     {
         return myInt;
     }
+    
+    public String getString()
+    {
+        return myString;
+    }
 
     // mutators
     public void setInt(int newInt)
     {
         myInt = newInt;
+    }
+    
+    public void setString(String newString)
+    {
+        myString = newString;
     }
 }
